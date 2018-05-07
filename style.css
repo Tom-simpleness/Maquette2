@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Enyo-Slab_Light';
+    src: url("Enyo-Slab_Light.ttf"),
+    url("Enyo-Slab_Light.otf");
+}
+header{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+),url("img/image-499666622.jpg") no-repeat;background-size:auto;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    height: 550px;
+    color: white;
+    font-family: Enyo-Slab_Light;
+}
+.padding{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    font-family: Enyo-Slab_Light;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0.8;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+h1{
+    padding-top: 35px;
+    font-size: 60px;
+    margin-top: 30px 0px;
+    font-weight: lighter;
+}
+ul{
+    list-style: none;
+    padding-right: 40px;
+    overflow: hidden;
+}
+li{
+    display: inline-block;
+    margin: 7px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
+.service{
+    font-weight: bold;
+    opacity: 0.9;
+    padding: 15px 0px;
+}
+button {
+    color: white;
+    background-color: #f47e37;
+    font-size: large;
+    padding: 15px 40px;
+    border-radius: 2px;
+    border: none;
+}
+h4 {
+    font-size: 15px;
+    margin-top: 0px;
+}
+.second{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.texte {
+    font-size: small;
+}
+.icon{
+    width:75px;
+    height:75px;
+    margin-right:20px;
+}
+.nav2{
+    color: black;
+}
+.nav2:hover{
+    color: #f47e37;
+}
+.liste2{
+    padding-left: 0px;
+}
+.portfolio {
+    display: flex;
+    align-content: center;
+}
+.galerie{
+    width: 33.33%;
+}
+.testimonial{
+    background-color: #f47e37;
+    margin: 0;
+    height: 250px;
+    color: white;
+    padding-top: 40px;
+}
+.formulaire{
+    display: flex;
+}
+.title{
+    display: inline-block;
+}
+.staticcontent{
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+    ),url("img/image-195625538.jpg") no-repeat;background-size:auto;
+    height: 400px;
+    padding-top: 40px;
+    color: white;
+}
+form{
+    display: flex;
+     flex-direction: column;
+}
+.titre {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+h2{ font-size: 35px;
+    white-space: nowrap;
+}
+.trait{
+    border-top: solid darkgrey 1.5px;
+    width: 100%;
+}
+.first {
+    display:flex;
+}
+article{
+    display: flex;
+    margin-bottom: 20px;
+}
+.icon{
+    width:75px;
+    height:75px;
+    margin-right:20px;
+}
+.logo{
+    width: 17%;
+}
+h3{
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.team {
+    display: flex;
+}
+.member{
+    width: 100%;
+}
+.team2{
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+hr{
+    opacity: 0.7;
+}
+.white{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+input{
+    background: lightgray;
+    border: lightgray;
+}
+textarea{
+    height: 90px;
+    background: lightgray;
+    border: lightgray;
+}
+.formul{
+    margin-left: 20px;
+    flex-direction: column;
+}
+.adresse{
+    margin-right: 25px;
+}
+.fab{
+    color: lightgray;
+    font-size: 35px;
+    margin: 10px;
+}
